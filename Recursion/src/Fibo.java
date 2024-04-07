@@ -5,12 +5,13 @@ public class Fibo {
 //        for (int i = 0; i < 50; i++) {
 //            System.out.println(fiboFormula(i));
 //        }
-        System.out.println(fiboFormula(50));
+        // System.out.println(fiboFormula(50));
+        System.out.println(fibo(4));
     }
 
-    static int fiboFormula(int n){
-        return (int)(Math.pow(((1+Math.sqrt(5)) / 2),n) / Math.sqrt(5));
-    }
+    // static int fiboFormula(int n){
+    //     return (int)(Math.pow(((1+Math.sqrt(5)) / 2),n) / Math.sqrt(5));
+    // }
      static int fibo(int n) {
         if(n<2){
             return n;
