@@ -9,11 +9,10 @@ public class Subset {
         List<List<Integer>> ans = subsetDuplicate(arr);
         for (List<Integer> list : ans) {
             System.out.println(list);
-            ;
         }
-        int[] arr1 = {};
-        int[] arr2 = {1, 2, 3};
-        System.out.println(Arrays.toString(subset(arr1, arr2)));
+        // int[] arr1 = {};
+        // int[] arr2 = {1, 2, 3};
+        // System.out.println(Arrays.toString(subset(arr1, arr2)));
     }
 
     // subset using recursion
